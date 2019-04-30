@@ -737,6 +737,27 @@
 							<TransitionInfo/>
 						</MusicTransition>
 					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="Switch_Music" ID="{2BB1F56E-0BDF-45E9-A6A4-B845149E5569}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Ingame" ID="{5986AE5F-43F7-482A-A3A4-C8C4D1BC9A06}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Ingame" ID="{FCA42942-E5EB-4154-B798-A0E8B4F2893C}" WorkUnitID="{AEF708CF-B277-4624-8AA6-6A26154FC3A4}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Menu" ID="{175293FF-B184-41F4-869C-B0AE512DD66D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Menu" ID="{E31E6949-4092-4AA7-B199-62B925AA467F}" WorkUnitID="{AEF708CF-B277-4624-8AA6-6A26154FC3A4}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
 				</MusicSwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
