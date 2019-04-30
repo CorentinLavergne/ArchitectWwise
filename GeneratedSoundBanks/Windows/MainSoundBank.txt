@@ -1,0 +1,17 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1992488372	State_Music			\Default Work Unit\State_Music	
+
+State	ID	Name	State Group			Notes
+	0	None	State_Music			
+	984691642	Ingame	State_Music			
+	2607556080	Menu	State_Music			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	347552919	ArchitectMenu	C:\Users\corentin.lavergne\Documents\ProjetsM1\Architect\git\ArchitectWwise\.cache\Windows\SFX\ArchitectMenu_D79FB2B7.wem		\Interactive Music Hierarchy\MusicWorkUnit\Navigation\Menu\ArchitectMenu\ArchitectMenu		14400064
+	484737208	Pont2	C:\Users\corentin.lavergne\Documents\ProjetsM1\Architect\git\ArchitectWwise\.cache\Windows\SFX\Pont2_D79FB2B7.wem		\Interactive Music Hierarchy\MusicWorkUnit\Navigation\Ingame\Pont2\Pont2		11808064
+	878087835	MusiqueInGame	C:\Users\corentin.lavergne\Documents\ProjetsM1\Architect\git\ArchitectWwise\.cache\Windows\SFX\MusiqueInGame_D79FB2B7.wem		\Interactive Music Hierarchy\MusicWorkUnit\Navigation\Ingame\MusiqueInGame\MusiqueInGame		50432064
+	905312553	Pont1	C:\Users\corentin.lavergne\Documents\ProjetsM1\Architect\git\ArchitectWwise\.cache\Windows\SFX\Pont1_D79FB2B7.wem		\Interactive Music Hierarchy\MusicWorkUnit\Navigation\Ingame\Pont1\Pont1		18720064
+

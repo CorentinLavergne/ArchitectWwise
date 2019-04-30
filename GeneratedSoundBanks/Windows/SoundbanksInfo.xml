@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>C:\Users\corentin.lavergne\Documents\ProjetsM1\Architect\git\ArchitectWwise\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\corentin.lavergne\Documents\ProjetsM1\Architect\git\ArchitectWwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\corentin.lavergne\Documents\ProjetsM1\Architect\git\ArchitectWwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\corentin.lavergne\Documents\ProjetsM1\Architect\git\ArchitectWwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="534561221" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\MainSoundBank</ObjectPath>
+			<ShortName>MainSoundBank</ShortName>
+			<Path>MainSoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="347552919" Language="SFX">
+					<ShortName>ArchitectMenu.wav</ShortName>
+					<Path>SFX\ArchitectMenu_D79FB2B7.wem</Path>
+				</File>
+				<File Id="484737208" Language="SFX">
+					<ShortName>Pont2.wav</ShortName>
+					<Path>SFX\Pont2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="878087835" Language="SFX">
+					<ShortName>MusiqueInGame.wav</ShortName>
+					<Path>SFX\MusiqueInGame_D79FB2B7.wem</Path>
+				</File>
+				<File Id="905312553" Language="SFX">
+					<ShortName>Pont1.wav</ShortName>
+					<Path>SFX\Pont1_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
