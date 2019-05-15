@@ -1,6 +1,223 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{041A3398-CF33-49FB-A3B6-817B21D08398}" SchemaVersion="94">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{041A3398-CF33-49FB-A3B6-817B21D08398}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{041A3398-CF33-49FB-A3B6-817B21D08398}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="PRENDRE MODULE" ID="{266AEF6A-7758-4941-95BF-4FD56F7497BB}" ShortID="737881582">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F968CDA9-1CC0-4B2D-85BA-7D7BF16623E1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{71AC4C23-BEE2-4A8D-A6B3-7B48275E3251}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PRENDRE MODULE" ID="{2008EB09-9A32-4111-B5DB-EF10AAE5747F}" ShortID="478295504">
+							<Language>SFX</Language>
+							<AudioFile>PRENDRE MODULE.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="PRENDRE MODULE" ID="{2008EB09-9A32-4111-B5DB-EF10AAE5747F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="TP MODULE" ID="{4EA1F28D-CAD9-4DFA-9D95-3E735BC5905D}" ShortID="20899747">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F968CDA9-1CC0-4B2D-85BA-7D7BF16623E1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{71AC4C23-BEE2-4A8D-A6B3-7B48275E3251}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="TP MODULE" ID="{808504A8-F1A4-4210-B360-1D1CD3632EC4}" ShortID="14445283">
+							<Language>SFX</Language>
+							<AudioFile>TP MODULE.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="TP MODULE" ID="{808504A8-F1A4-4210-B360-1D1CD3632EC4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="WRONG" ID="{F0C34116-7989-417C-BD67-44CBDAC10DE3}" ShortID="846618968">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F968CDA9-1CC0-4B2D-85BA-7D7BF16623E1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{71AC4C23-BEE2-4A8D-A6B3-7B48275E3251}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="WRONG" ID="{3608E593-952F-4DBB-B5B8-3B9E8BAACFD1}" ShortID="644075696">
+							<Language>SFX</Language>
+							<AudioFile>WRONG.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="WRONG" ID="{3608E593-952F-4DBB-B5B8-3B9E8BAACFD1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Lumière" ID="{CB43BD35-6763-496D-8AD9-8F345E50FB2D}" ShortID="372837715">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F968CDA9-1CC0-4B2D-85BA-7D7BF16623E1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{71AC4C23-BEE2-4A8D-A6B3-7B48275E3251}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="LUMIERE ALLUME01" ID="{CE751201-949D-4517-BCAD-313EF7D60808}" ShortID="261704443">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F968CDA9-1CC0-4B2D-85BA-7D7BF16623E1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{71AC4C23-BEE2-4A8D-A6B3-7B48275E3251}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LUMIERE ALLUME01" ID="{046FB82E-2D12-4E17-A193-BBF2E69B9493}" ShortID="250424197">
+									<Language>SFX</Language>
+									<AudioFile>LUMIERE ALLUME01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="LUMIERE ALLUME01" ID="{046FB82E-2D12-4E17-A193-BBF2E69B9493}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LUMIERE ALLUME02" ID="{2B352A27-40A8-4F01-85F1-6234F3D2BE17}" ShortID="161686517">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F968CDA9-1CC0-4B2D-85BA-7D7BF16623E1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{71AC4C23-BEE2-4A8D-A6B3-7B48275E3251}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LUMIERE ALLUME02" ID="{FB8742A8-7DAA-48A4-B63F-3073147043F8}" ShortID="101783780">
+									<Language>SFX</Language>
+									<AudioFile>LUMIERE ALLUME02.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="LUMIERE ALLUME02" ID="{FB8742A8-7DAA-48A4-B63F-3073147043F8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LUMIERE ALLUME03" ID="{A9F316FB-A2AD-4539-937C-A068B237FAA0}" ShortID="893127446">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F968CDA9-1CC0-4B2D-85BA-7D7BF16623E1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{71AC4C23-BEE2-4A8D-A6B3-7B48275E3251}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LUMIERE ALLUME03" ID="{60E8F1D8-E568-4A31-8B9D-1E956D95EEB0}" ShortID="803706115">
+									<Language>SFX</Language>
+									<AudioFile>LUMIERE ALLUME03.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="LUMIERE ALLUME03" ID="{60E8F1D8-E568-4A31-8B9D-1E956D95EEB0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LUMIERE ALLUME04" ID="{B60816F2-5935-4FEF-8110-44F117D24FB9}" ShortID="86602426">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F968CDA9-1CC0-4B2D-85BA-7D7BF16623E1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{71AC4C23-BEE2-4A8D-A6B3-7B48275E3251}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LUMIERE ALLUME04" ID="{BEB39B3C-5BAF-4D10-8505-CC836309F7AD}" ShortID="203234394">
+									<Language>SFX</Language>
+									<AudioFile>LUMIERE ALLUME04.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="LUMIERE ALLUME04" ID="{BEB39B3C-5BAF-4D10-8505-CC836309F7AD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LUMIERE ETEINTE" ID="{54A1B274-22F5-445E-916F-D8B024E04942}" ShortID="872947683">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F968CDA9-1CC0-4B2D-85BA-7D7BF16623E1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{71AC4C23-BEE2-4A8D-A6B3-7B48275E3251}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LUMIERE ETEINTE" ID="{E5FD4EA5-1185-4EEB-AC3D-D690FA726FD1}" ShortID="57007878">
+									<Language>SFX</Language>
+									<AudioFile>LUMIERE ETEINTE .wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="LUMIERE ETEINTE" ID="{E5FD4EA5-1185-4EEB-AC3D-D690FA726FD1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<ActorMixer Name="Ambiance" ID="{A4AE1CC2-5D7F-4C8C-94BF-5B9351F3F804}" ShortID="325396707">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F968CDA9-1CC0-4B2D-85BA-7D7BF16623E1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{71AC4C23-BEE2-4A8D-A6B3-7B48275E3251}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="LUMIERE GRESILLE" ID="{CB269818-EEAC-4164-B48D-9EA890231B89}" ShortID="600028115">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F968CDA9-1CC0-4B2D-85BA-7D7BF16623E1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{71AC4C23-BEE2-4A8D-A6B3-7B48275E3251}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LUMIERE GRESILLE" ID="{F269B7DA-C00D-400D-96D7-559EFA54414F}" ShortID="378695272">
+									<Language>SFX</Language>
+									<AudioFile>LUMIERE GRESILLE.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="LUMIERE GRESILLE" ID="{F269B7DA-C00D-400D-96D7-559EFA54414F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<Sound Name="POSER MODULE" ID="{D637F6F2-6DD5-421E-8BE5-BE24844F77BC}" ShortID="1043419551">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F968CDA9-1CC0-4B2D-85BA-7D7BF16623E1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{71AC4C23-BEE2-4A8D-A6B3-7B48275E3251}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="POSER MODULE" ID="{3A8ECF7A-20EF-4F87-9C99-835FACF4D221}" ShortID="214254575">
+							<Language>SFX</Language>
+							<AudioFile>POSER MODULE.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="POSER MODULE" ID="{3A8ECF7A-20EF-4F87-9C99-835FACF4D221}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
